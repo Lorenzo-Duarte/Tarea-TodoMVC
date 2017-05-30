@@ -1,0 +1,73 @@
+body{
+	background-color: #f5f5f5;
+}
+
+#check{
+	float: left;
+}
+.container{
+	margin: auto;
+	width: 65%;
+
+}
+
+
+#todo-list li .destroy {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    font-size: 30px;
+    color: #cc9a9a;
+    margin-bottom: 11px;
+    transition: color 0.2s ease-out;
+}
+#destroy{
+	float: right;
+
+}
+
+div{
+	margin: 15px;
+}
+
+.form-input{
+	background-color: #fff;
+	box-shadow: 4px 4px 4px #aaa;
+	padding: 30px;
+}
+
+.form-input input{
+border: none;
+box-shadow: none;
+font-size: 20px;
+}
+.form-input input:focus{
+box-shadow: none;
+background-color: #cc9;
+}
+.form-input input::placeholder{
+	opacity: 0.45;
+}
+h3{
+	float: left;
+	margin-top: -9px;
+	padding: 3px;
+}
+.title{
+	color: rgba(175, 47, 47, 0.15);
+	text-align: center;
+	font-size: 150px;
+}
+.todo-list{
+	margin-top: -20px;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+	text-anchor: 2px;
+	background-color: #ccc;
+}
